@@ -1,0 +1,14 @@
+Jumper.
+
+1. Player starts game.
+2. Game initializes the player, puzzle and secret word.
+3. Player makes a guess.
+4. If guess is not letter (show message - please choose a letter) then go to step 3
+5. If guess is letter, proceed to step 6
+6. If guess is correct replace letters in the secret word.
+7. else if the guess is incorrect then dent the player's parachute.
+8. else if the guess is incorrect and the parachute is not spoilt completely then go to step 3.
+9. else the parachute is spoilt i.e completely dented then game is over(show game over message.)
+10. Ask player to play again.
+11. If yes then got to step 2.
+12. else close game(close game message).
